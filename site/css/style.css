@@ -44,18 +44,19 @@ body {
 }
 /* END HEADER */
 /* SECTION */
-
-#main-content h3 {
-  text-align: center;
+h2 {
+  text-align : center;
+  font-size  : 30px;
 }
-#main-content {
-  text-align: center;
+#heading {
+    font-size  : 15px;
+    text-align : center;
 }
 #main-text {
-  text-align: left;
-}
-.containter {
-  background-color: #61122f;
+   border-width: 10px;
+   background-color: rgb(246, 179, 25);
+   height: 800px;
+   margin: 20px;
 }
 /********** Large devices only **********/
 @media (min-width: 1200px) {
